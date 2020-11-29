@@ -1,0 +1,5 @@
+TIMESTAMP = 1606624211
+SHA256 (koue-slowcgi-6.8.20201116_GH0.tar.gz) = 7d83689a4212d3faed3ee7af4623042190939c7e533d5cb015ee0d21212a9dc4
+SIZE (koue-slowcgi-6.8.20201116_GH0.tar.gz) = 16403
+SHA256 (koue-libevent-6.6.20191030_GH0.tar.gz) = 20ae6a4eb59875a3550d7a63edb6b082caf04920fa2a52df6755a5da5af5303e
+SIZE (koue-libevent-6.6.20191030_GH0.tar.gz) = 67565

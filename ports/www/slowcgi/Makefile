@@ -1,0 +1,38 @@
+# $FreeBSD$
+
+PORTNAME=	slowcgi
+PORTVERSION=	6.8.20201116
+CATEGORIES=	www
+
+MAINTAINER=	koue@chaosophia.net
+COMMENT=	FastCGI interface for old CGI programs
+
+LICENSE=	BSD3CLAUSE
+
+LIBEVENT_VERSION=       6.6.20191030
+USE_GITHUB=	yes
+GH_ACCOUNT=	koue
+GH_PROJECT=	slowcgi \
+		libevent:libevent
+GH_TAGNAME=	${LIBEVENT_VERSION}:libevent
+
+USES=		uidfix
+USE_RC_SUBR=	slowcgi
+
+CFLAGS+=	-I${WRKSRC_libevent}/src/lib/libevent
+
+LDFLAGS+=	-L${WRKSRC_libevent}/src/lib/libevent
+
+USERS=		www
+GROUPS=		www
+
+PLIST_FILES=	sbin/slowcgi \
+		man/man8/slowcgi.8.gz
+
+post-patch:
+	${REINPLACE_CMD} -e 's|libevent||g' ${WRKSRC}/Makefile
+
+pre-configure:
+	@(cd ${WRKSRC_libevent} && ${SETENV} ${MAKE_ENV} ${MAKE})
+
+.include <bsd.port.mk>
