@@ -14,3 +14,8 @@ $ cd ports/mail/cclient
 $ make config
 $ cp -rv /var/db/ports/mail_cclient options/
 ```
+
+Enable pkg repository
+```
+$ cp etc/chaosophia.conf /usr/local/etc/pkg/repos/
+```
