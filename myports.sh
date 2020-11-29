@@ -11,14 +11,17 @@ MYARCH=amd64
 ###
 if [ ! `which poudriere` ]
 then
-    echo "poudriere is missing."
+    echo "poudriere is missing. Install poudriere."
     exit 1
 fi
 
 if [ ! -d "${POUDRIERE}/jails/${MYNAME}" ]
 then
-    echo "${MYNAME} jail is missing."
-    exit 1
+    if [ -z "${1}" ] || [ "${1}" != "init" ]
+    then
+        echo "${MYNAME} jail is missing. Run [${0} init]."
+        exit 1
+    fi
 fi
 
 ### functions
@@ -44,7 +47,10 @@ _sync() {
 }
 
 _build() {
-    poudriere ports -d -p ${MYNAME}
+    if [ "`poudriere ports -l | grep "${MYNAME}"`" ]
+    then
+        poudriere ports -d -p ${MYNAME}
+    fi
     poudriere ports -c -p ${MYNAME} -F
 
     cp -r ports/* ${POUDRIERE}/ports/${MYNAME}/
