@@ -1,0 +1,33 @@
+# Created by: Nikola Kolev <koue@chaosophia.net>
+# $FreeBSD$
+
+PORTNAME=	graffer
+PORTVERSION=	1.2
+CATEGORIES=	sysutils
+
+MAINTAINER=	koue@chaosophia.net
+COMMENT=	Utility to render graphical statistics
+
+LICENSE=	BSD2CLAUSE
+
+USE_GITHUB=	yes
+GH_ACCOUNT=	koue
+GH_PROJECT=	graffer
+
+LIB_DEPENDS=	libpng.so:graphics/png
+
+PLIST_FILES=	bin/graffer \
+		etc/graffer/graffer.conf.example \
+		man/man8/graffer.8.gz
+
+post-patch:
+	@${REINPLACE_CMD} -e "s|/etc/|${PREFIX}/etc/|" \
+		${WRKSRC}/src/graffer.[c8]
+
+do-install:
+	${INSTALL_PROGRAM} ${WRKSRC}/src/graffer ${STAGEDIR}${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/src/graffer.8 ${STAGEDIR}${PREFIX}/man/man8
+	@${MKDIR} ${STAGEDIR}${PREFIX}/etc/graffer
+	${INSTALL_DATA} ${WRKSRC}/etc/graffer.conf.example ${STAGEDIR}${PREFIX}/etc/graffer
+
+.include <bsd.port.mk>
