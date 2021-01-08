@@ -1,0 +1,7 @@
+TIMESTAMP = 1610112864
+SHA256 (koue-rssroll-0.9.0_GH0.tar.gz) = 7e7f0977c458ff79869ed66feff577a3032ad0497b269a890013b036a6bd9abb
+SIZE (koue-rssroll-0.9.0_GH0.tar.gz) = 24085
+SHA256 (koue-libfsl-2.12.1_GH0.tar.gz) = 2b14be32a6b7769876f6af1a5200c2f5a5d75a0a22eb3ae866ba80ae419ea3dc
+SIZE (koue-libfsl-2.12.1_GH0.tar.gz) = 87790
+SHA256 (koue-libcez-1.13_GH0.tar.gz) = 6e263467c7ef2491b2ebc657ef61b9948ef844ed1442c06b371794cf4028ce6c
+SIZE (koue-libcez-1.13_GH0.tar.gz) = 87868
