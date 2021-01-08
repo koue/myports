@@ -1,9 +1,10 @@
 #!/bin/sh
-# $FreeBSD: head/Mk/Scripts/create-manifest.sh 554142 2020-11-05 16:51:30Z mat $
+# $FreeBSD: head/Mk/Scripts/create-manifest.sh 554894 2020-11-11 13:30:03Z mat $
 #
 # MAINTAINER: portmgr@FreeBSD.org
 
 set -e
+set -o pipefail
 
 . "${dp_SCRIPTSDIR}/functions.sh"
 
@@ -62,7 +63,8 @@ EOT
 
 # Then the key/values sections
 echo "deps: { "
-eval ${dp_ACTUAL_PACKAGE_DEPENDS} | grep -v -E ${dp_PKG_IGNORE_DEPENDS} | sort -u
+# Ignore grep's return value.
+eval ${dp_ACTUAL_PACKAGE_DEPENDS} | { grep -v -E ${dp_PKG_IGNORE_DEPENDS} || :; } | sort -u
 echo "}"
 
 echo "options: {"

@@ -1,9 +1,11 @@
 #! /bin/sh
-# $FreeBSD: head/Mk/Scripts/plist_sub_sed_sort.sh 554142 2020-11-05 16:51:30Z mat $
+# $FreeBSD: head/Mk/Scripts/plist_sub_sed_sort.sh 554893 2020-11-11 13:29:52Z mat $
 #
 # MAINTAINER: portmgr@FreeBSD.org
 #
 # PLIST_SUB_SED helper to sort by longest value first.
+
+set -o pipefail
 
 awk '{
 	while (match($0, /s![^!]*![^!]*!g;/)) {

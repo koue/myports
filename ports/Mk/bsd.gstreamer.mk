@@ -5,7 +5,7 @@
 #
 # Created by: Michael Johnson <ahze@FreeBSD.org>
 #
-# $FreeBSD: head/Mk/bsd.gstreamer.mk 550712 2020-09-30 15:23:09Z rene $
+# $FreeBSD: head/Mk/bsd.gstreamer.mk 555510 2020-11-16 19:28:59Z amdmi3 $
 #    $MCom: ports/Mk/bsd.gstreamer.mk,v 1.56 2013/01/15 21:43:45 kwm Exp $
 
 .if !defined(_POSTMKINCLUDED) && !defined(Gstreamer_Pre_Include)
@@ -129,7 +129,6 @@ _GSTREAMER_PLUGINS+= \
 		hal \
 		libpng \
 		mad \
-		mm \
 		mp3 \
 		nas \
 		schroedinger \
@@ -159,6 +158,7 @@ _GSTREAMER_PLUGINS+= \
 		libav \
 		libde265 \
 		lv2 \
+		mm \
 		modplug \
 		mpg123 \
 		mplex \
@@ -481,7 +481,7 @@ libde265_IMPL=		bad
 mm_DEPENDS=	multimedia/gstreamermm
 mm_GST_PREFIX=	gstreamer
 mm_GST_SUFX=	# empty
-mm_GST_VERSION=	0.9.4
+mm_GST_VERSION=	1.10.0
 mm_IMPL=	#
 
 mpeg2dec_DEPENDS=	multimedia/gstreamer-plugins-mpeg2dec

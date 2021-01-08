@@ -1,5 +1,5 @@
 #! /bin/sh
-# $FreeBSD: head/Mk/Scripts/check_leftovers.sh 554142 2020-11-05 16:51:30Z mat $
+# $FreeBSD: head/Mk/Scripts/check_leftovers.sh 554893 2020-11-11 13:29:52Z mat $
 #
 # MAINTAINER: portmgr@FreeBSD.org
 #
@@ -22,6 +22,8 @@
 #
 # The PLIST_SUB feature can be disabled by setting PLIST_SUB_SED=
 # in environment.
+
+set -o pipefail
 
 [ -n "${DEBUG_MK_SCRIPTS}" -o -n "${DEBUG_MK_SCRIPTS_CHECK_LEFTOVERS}" ] && set -x
 

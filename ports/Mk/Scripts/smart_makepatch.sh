@@ -1,6 +1,6 @@
 #!/bin/sh
 # MAINTAINER: portmgr@FreeBSD.org
-# $FreeBSD: head/Mk/Scripts/smart_makepatch.sh 554142 2020-11-05 16:51:30Z mat $
+# $FreeBSD: head/Mk/Scripts/smart_makepatch.sh 554893 2020-11-11 13:29:52Z mat $
 
 # This script regenerates patches.  It conserves existing comments and
 # file names, even if the file name does not meet any current or
@@ -24,6 +24,8 @@
 # Don't forget to disable post-patch targets before regenerating patches
 # if those targets modify source files (e.g. with sed).  You may also
 # want to disable EXTRA_PATCHES as well if that is being used.
+
+set -o pipefail
 
 [ -n "${DEBUG_MK_SCRIPTS}" -o -n "${DEBUG_MK_SCRIPTS_SMART_MAKEPATCH}" ] && set -x
 

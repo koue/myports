@@ -1,7 +1,8 @@
 #! /bin/sh
-# $FreeBSD: head/Mk/Scripts/dialog4ports.sh 554142 2020-11-05 16:51:30Z mat $
+# $FreeBSD: head/Mk/Scripts/dialog4ports.sh 554893 2020-11-11 13:29:52Z mat $
 # Maintainer: portmgr@FreeBSD.org
 set -e
+set -o pipefail
 
 [ -n "${DEBUG_MK_SCRIPTS}" -o -n "${DEBUG_MK_SCRIPTS_DIALOG4PORTS}" ] && set -x
 

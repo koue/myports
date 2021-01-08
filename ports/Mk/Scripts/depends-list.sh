@@ -1,8 +1,9 @@
 #!/bin/sh
 # MAINTAINER: portmgr@FreeBSD.org
-# $FreeBSD: head/Mk/Scripts/depends-list.sh 554142 2020-11-05 16:51:30Z mat $
+# $FreeBSD: head/Mk/Scripts/depends-list.sh 554893 2020-11-11 13:29:52Z mat $
 
 set -e
+set -o pipefail
 
 . ${dp_SCRIPTSDIR}/functions.sh
 

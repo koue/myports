@@ -1,7 +1,7 @@
 #-*- tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: head/Mk/Uses/gnome.mk 553846 2020-11-01 17:20:34Z rene $
+# $FreeBSD: head/Mk/Uses/gnome.mk 557826 2020-12-12 14:25:16Z rene $
 #	$NetBSD: $
 #
 # Please view me with 4 column tabs!
@@ -81,7 +81,7 @@ _USE_GNOME_ALL+= atk cairo \
 		libgnomecanvas libgnomekbd \
 		libgnomeui libgsf libgtkhtml libidl librsvg2 libwnck \
 		libxml2 libxslt \
-		orbit2 pango pangox-compat pygobject \
+		orbit2 pango pangox-compat \
 		vte
 
 # GNOME 3 components
@@ -260,7 +260,16 @@ vte_USE_GNOME_IMPL=	gtk20
 vte3_LIB_DEPENDS=	libvte-2.91.so:x11-toolkits/vte3
 vte3_USE_GNOME_IMPL=	gtk30
 
+# Use librsvg2-rust where lang/rust is available
+.if ${LIBRSVG2_DEFAULT:Mrust}
+librsvg2_BUILD_DEPENDS=	librsvg2-rust>=0:graphics/librsvg2-rust
+librsvg2_LIB_DEPENDS=	librsvg-2.so:graphics/librsvg2-rust
+librsvg2_RUN_DEPENDS=	librsvg2-rust>=0:graphics/librsvg2-rust
+.else
+librsvg2_BUILD_DEPENDS=	librsvg2>=0:graphics/librsvg2
 librsvg2_LIB_DEPENDS=	librsvg-2.so:graphics/librsvg2
+librsvg2_RUN_DEPENDS=	librsvg2>=0:graphics/librsvg2
+.endif
 librsvg2_USE_GNOME_IMPL=libgsf gdkpixbuf2 pango
 
 nautilus3_LIB_DEPENDS=	libnautilus-extension.so:x11-fm/nautilus
@@ -289,10 +298,6 @@ gtksourceview4_USE_GNOME_IMPL=gtk30 libxml2
 
 libgsf_LIB_DEPENDS=	libgsf-1.so:devel/libgsf
 libgsf_USE_GNOME_IMPL=	glib20 libxml2
-
-pygobject_BUILD_DEPENDS=	pygobject-codegen-2.0:devel/py-gobject
-pygobject_RUN_DEPENDS=		pygobject-codegen-2.0:devel/py-gobject
-pygobject_USE_GNOME_IMPL=	glib20
 
 pygobject3_BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}gobject3>=0:devel/py-gobject3@${PY_FLAVOR}
 pygobject3_RUN_DEPENDS=		${PYTHON_PKGNAMEPREFIX}gobject3>=0:devel/py-gobject3@${PY_FLAVOR}

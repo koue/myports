@@ -1,7 +1,7 @@
 #-*- tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: head/Mk/bsd.port.mk 553987 2020-11-03 14:36:15Z 0mp $
+# $FreeBSD: head/Mk/bsd.port.mk 555755 2020-11-20 11:05:58Z 0mp $
 #	$NetBSD: $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
@@ -2592,11 +2592,15 @@ check-categories:
 .else
 
 VALID_CATEGORIES+= accessibility afterstep arabic archivers astro audio \
-	benchmarks biology cad chinese comms converters databases \
-	deskutils devel dns docs editors elisp emulators enlightenment finance french ftp \
-	games geography german gnome gnustep graphics hamradio haskell hebrew hungarian \
-	irc japanese java kde ${_KDE_CATEGORIES_SUPPORTED} kld korean lang linux lisp \
-	mail mate math mbone misc multimedia net net-im net-mgmt net-p2p net-vpn news \
+	benchmarks biology cad chinese comms converters \
+	databases deskutils devel dns docs \
+	editors education elisp emulators enlightenment finance french ftp \
+	games geography german gnome gnustep graphics \
+	hamradio haskell hebrew hungarian irc japanese java \
+	kde ${_KDE_CATEGORIES_SUPPORTED} kld korean \
+	lang linux lisp \
+	mail mate math mbone misc multimedia \
+	net net-im net-mgmt net-p2p net-vpn news \
 	parallel pear perl5 plan9 polish ports-mgmt portuguese \
 	print python ruby rubygems russian \
 	scheme science security shells spanish sysutils \

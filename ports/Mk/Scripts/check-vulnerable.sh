@@ -1,9 +1,10 @@
 #!/bin/sh
-# $FreeBSD: head/Mk/Scripts/check-vulnerable.sh 554142 2020-11-05 16:51:30Z mat $
+# $FreeBSD: head/Mk/Scripts/check-vulnerable.sh 554893 2020-11-11 13:29:52Z mat $
 #
 # MAINTAINER: portmgr@FreeBSD.org
 
 set -e
+set -o pipefail
 
 . "${dp_SCRIPTSDIR}/functions.sh"
 

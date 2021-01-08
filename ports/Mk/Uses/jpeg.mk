@@ -1,4 +1,4 @@
-# $FreeBSD: head/Mk/Uses/jpeg.mk 411970 2016-03-27 01:23:25Z bapt $
+# $FreeBSD: head/Mk/Uses/jpeg.mk 556784 2020-12-01 19:12:47Z rene $
 #
 # Handle dependency on jpeg
 #
@@ -8,7 +8,7 @@
 #
 # User defined variables:
 # JPEG_PORT		- jpeg implementation
-#			Valid values: graphics/jpeg and graphics/jpeg-turbo
+#			Valid value: graphics/jpeg-turbo
 #			Default value: graphics/jpeg-turbo
 #
 # MAINTAINER: portmgr@FreeBSD.org

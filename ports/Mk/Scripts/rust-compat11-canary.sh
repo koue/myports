@@ -1,7 +1,8 @@
 #!/bin/sh
 # MAINTAINER: rust@FreeBSD.org
-# $FreeBSD: head/Mk/Scripts/rust-compat11-canary.sh 554142 2020-11-05 16:51:30Z mat $
+# $FreeBSD: head/Mk/Scripts/rust-compat11-canary.sh 554893 2020-11-11 13:29:52Z mat $
 set -eu
+set -o pipefail
 
 if [ "${OPSYS}" != FreeBSD ] || [ "${OSVERSION}" -lt 1200000 ]; then
 	exit 0

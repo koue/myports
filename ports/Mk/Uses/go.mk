@@ -1,4 +1,4 @@
-# $FreeBSD: head/Mk/Uses/go.mk 531678 2020-04-14 12:52:02Z dmgk $
+# $FreeBSD: head/Mk/Uses/go.mk 554936 2020-11-12 08:15:43Z dch $
 #
 # This file contains logic to ease porting of Go binaries using the
 # `go` command.
@@ -108,6 +108,7 @@ GO_TESTFLAGS+=	-mod=vendor
 GO_WRKSRC=	${WRKSRC}
 GO_ENV+=	GOPATH="" \
 		GOBIN="${GO_WRKDIR_BIN}" \
+		GOPROXY=off \
 		GO_NO_VENDOR_CHECKS=1
 .else
 GO_WRKSRC=	${WRKDIR}/src/${GO_PKGNAME}

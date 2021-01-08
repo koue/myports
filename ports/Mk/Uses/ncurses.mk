@@ -1,4 +1,4 @@
-# $FreeBSD: head/Mk/Uses/ncurses.mk 542782 2020-07-21 19:16:13Z bapt $
+# $FreeBSD: head/Mk/Uses/ncurses.mk 560711 2021-01-07 14:01:31Z bapt $
 #
 # handle dependency on the ncurses port
 #
@@ -27,7 +27,7 @@
 _INCLUDE_USES_NCURSES_MK=	yes
 
 .if empty(ncurses_ARGS)
-.  if !exists(${DESTDIR}/${LOCALBASE}/lib/libncurses.so) && exists(${DESTDIR}/usr/lib/libncurses.so)
+.  if !exists(${DESTDIR}/${LOCALBASE}/lib/libncurses.so) && exists(${DESTDIR}/usr/lib/libncursesw.so)
 ncurses_ARGS=	base
 .  else
 ncurses_ARGS=	port
