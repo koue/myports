@@ -1,6 +1,6 @@
 #!/bin/sh
 # MAINTAINER: portmgr@FreeBSD.org
-# $FreeBSD: head/Mk/Scripts/qa.sh 556784 2020-12-01 19:12:47Z rene $
+# $FreeBSD: head/Mk/Scripts/qa.sh 562050 2021-01-19 15:04:17Z gerald $
 
 set -o pipefail
 

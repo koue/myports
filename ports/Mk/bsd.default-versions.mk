@@ -1,4 +1,4 @@
-# $FreeBSD: head/Mk/bsd.default-versions.mk 560237 2021-01-03 20:29:36Z sunpoet $
+# $FreeBSD: head/Mk/bsd.default-versions.mk 562049 2021-01-19 15:02:22Z gerald $
 #
 # MAINTAINER:	ports@FreeBSD.org
 #
@@ -50,10 +50,8 @@ FPC_DEFAULT?=		3.2.0
 # Possible values: 8, 9 (powerpcspe was dropped with GCC 9), 10
 .if ${ARCH} == "powerpcspe"
 GCC_DEFAULT?=		8
-.elif ${ARCH} == "powerpc64le"
-GCC_DEFAULT?=		10
 .else
-GCC_DEFAULT?=		9
+GCC_DEFAULT?=		10
 .endif
 # Possible values: 7, 8, 9, agpl
 GHOSTSCRIPT_DEFAULT?=	agpl
