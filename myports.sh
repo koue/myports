@@ -26,7 +26,7 @@ fi
 
 ### functions
 _usage() {
-	echo "${0}: [init|sync|build]"
+	echo "${0}: [init|sync|diff|build]"
 }
 
 _init() {
@@ -44,6 +44,24 @@ _sync() {
     cp -r ${PORTS}/Keywords ports/
     cp ${PORTS}/GIDs ports/
     cp ${PORTS}/UIDs ports/
+}
+
+_diff() {
+    # show if diffs exist between myports and current ports tree
+    for DIR in `find ports/ -type d -depth 2 -name "[a-z]*"`
+    do
+        case "${DIR}" in
+            "ports/www/rssroll") continue;;
+            "ports/www/obhttpd") continue;;
+            "ports/www/slowcgi") continue;;
+            "ports/sysutils/graffer") continue;;
+        esac
+	grep '# $FreeBSD' "${DIR}/Makefile" > .diffmyports
+	grep '# $FreeBSD' "/usr/${DIR}/Makefile" > .diffusrports
+	diff -rupN .diffmyports .diffusrports
+    done
+    rm .diffmyports
+    rm .diffusrports
 }
 
 _build() {
@@ -78,5 +96,6 @@ fi
 case "${1}" in
     "init") _init;;
     "sync") _sync;;
+    "diff") _diff;;
     "build") _build;;
 esac

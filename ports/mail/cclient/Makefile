@@ -1,9 +1,9 @@
 # Created by: Kelly Yancey <kbyanc@FreeBSD.org>
-# $FreeBSD: head/mail/cclient/Makefile 527991 2020-03-08 00:48:45Z riggs $
+# $FreeBSD: head/mail/cclient/Makefile 554949 2020-11-12 11:18:34Z fernape $
 
 PORTNAME=	cclient
 PORTVERSION=	2007f
-PORTREVISION=	4
+PORTREVISION=	5
 PORTEPOCH=	1
 CATEGORIES=	mail devel
 MASTER_SITES=	ftp://ftp.cac.washington.edu/imap/%SUBDIR%/ \

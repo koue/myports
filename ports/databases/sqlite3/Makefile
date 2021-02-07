@@ -1,9 +1,9 @@
 # Created by: Ying-Chieh Liao <ijliao@FreeBSD.org>
-# $FreeBSD: head/databases/sqlite3/Makefile 553940 2020-11-03 00:56:26Z jbeich $
+# $FreeBSD: head/databases/sqlite3/Makefile 557725 2020-12-11 11:58:14Z gahr $
 
 PORTNAME=	sqlite3
-DISTVERSION=	3.33.0
-PORTREVISION=	1
+DISTVERSION=	3.34.0
+PORTREVISION=	0
 PORTEPOCH=	1
 CATEGORIES=	databases
 MASTER_SITES=	https://www.sqlite.org/2020/ http://www2.sqlite.org/2020/ http://www3.sqlite.org/2020/

@@ -13,7 +13,9 @@ COMMENT=	API for executing callback functions on events or timeouts
 LICENSE=	BSD3CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		cpe libtool pathfix pkgconfig shebangfix
+#myports USES=		cpe libtool pathfix pkgconfig python:env shebangfix
+USES=		cpe libtool pathfix pkgconfig shebangfix #myports
+#myports SHEBANG_FILES=	event_rpcgen.py
 GNU_CONFIGURE=	yes
 CPE_VENDOR=	libevent_project
 INSTALL_TARGET=	install-strip
@@ -31,7 +33,7 @@ OPENSSL_CONFIGURE_ENABLE=	openssl
 
 THREADS_CONFIGURE_ENABLE=	thread-support
 
-post-stage:
-	@${RM} ${STAGEDIR}/${PREFIX}/bin/event_rpcgen.py
+post-stage: #myports
+	@${RM} ${STAGEDIR}/${PREFIX}/bin/evet_rpcgen.py #myports
 
 .include <bsd.port.mk>

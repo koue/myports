@@ -1,3 +1,4 @@
+#myports bin/event_rpcgen.py
 include/evdns.h
 include/event.h
 include/event2/buffer.h
