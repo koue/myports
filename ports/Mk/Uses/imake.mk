@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/imake.mk 411970 2016-03-27 01:23:25Z bapt $
-#
 # Provide support for imake based projects
 #
 # Feature:		imake

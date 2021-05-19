@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/tar.mk 504008 2019-06-12 09:45:25Z danfe $
-#
 # handle tar archives
 #
 # Feature:	tar

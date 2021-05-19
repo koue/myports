@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/shebangfix.mk 456908 2017-12-21 13:27:51Z amdmi3 $
-#
 # Replace #! interpreters in scripts by what we actually have.
 #
 # Standard templates for bash, perl, python,... are included out of

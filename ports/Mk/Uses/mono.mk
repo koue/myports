@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/mono.mk 526329 2020-02-16 21:44:56Z dch $
-#
 # mono (c#) support
 #
 # Feature:	mono

@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/cran.mk 525094 2020-02-03 20:31:22Z rene $
-#
 # Use the Comprehensive R Archive Network 
 #
 # Feature:	cran

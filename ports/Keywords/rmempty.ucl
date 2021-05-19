@@ -1,6 +1,5 @@
-# $FreeBSD: head/Keywords/rmempty.ucl 552967 2020-10-22 12:46:48Z bapt $
-#
 # MAINTAINER:	portmgr@FreeBSD.org
+
 actions: []
 post-deinstall-lua: <<EOD
 	file = pkg.prefixed_path("%@")

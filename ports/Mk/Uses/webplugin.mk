@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/webplugin.mk 394503 2015-08-17 13:31:25Z mat $
-#
 # Documentation and examples:
 #
 # Feature:	webplugin

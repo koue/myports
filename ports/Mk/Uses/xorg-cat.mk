@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/xorg-cat.mk 526592 2020-02-20 21:41:02Z zeising $
-# 
 # xorg ports categories and other things needed to build xorg ports.
 # This is intended only for ports of xorg and freedesktop.org applications.
 #

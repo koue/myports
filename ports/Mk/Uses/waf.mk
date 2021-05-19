@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/waf.mk 522998 2020-01-14 09:27:18Z antoine $
-#
 # Provide support to use the waf building system
 #
 # Feature:		waf

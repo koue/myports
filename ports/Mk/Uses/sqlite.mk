@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/sqlite.mk 411970 2016-03-27 01:23:25Z bapt $
-#
 # Provide support for SQLite
 # Feature:	sqlite
 # Usage:	USES=	sqlite[:version]

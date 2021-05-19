@@ -1,6 +1,5 @@
 #!/bin/sh
 # MAINTAINER: portmgr@FreeBSD.org
-# $FreeBSD: head/Mk/Scripts/find-lib.sh 554893 2020-11-11 13:29:52Z mat $
 
 set -o pipefail
 

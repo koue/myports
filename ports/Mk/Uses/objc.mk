@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/objc.mk 528379 2020-03-13 21:46:34Z jkim $
-#
 # Objective C support
 #
 # Feature:	objc

@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/zip.mk 411970 2016-03-27 01:23:25Z bapt $
-#
 # handle zip archives
 #
 # Feature:	zip

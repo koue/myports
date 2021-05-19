@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/gettext-runtime.mk 411970 2016-03-27 01:23:25Z bapt $
-#
 # Handle dependency on the gettext-runtime (libintl) port
 #
 # Feature:	gettext-runtime

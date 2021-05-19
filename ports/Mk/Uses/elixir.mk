@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/elixir.mk 439368 2017-04-25 08:34:26Z olgeni $
-#
 # Handle Elixir related ports
 #
 # Feature:	elixir

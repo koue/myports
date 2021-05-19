@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/pkgconfig.mk 435591 2017-03-07 10:22:41Z tijl $
-#
 # handle dependency on the pkgconf port
 #
 # Feature:	pkgconfig

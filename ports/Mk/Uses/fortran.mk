@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/fortran.mk 497798 2019-04-04 06:54:58Z antoine $
-#
 # Fortran support
 #
 # Feature:	fortran

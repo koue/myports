@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/ncurses.mk 560711 2021-01-07 14:01:31Z bapt $
-#
 # handle dependency on the ncurses port
 #
 # Feature:	ncurses

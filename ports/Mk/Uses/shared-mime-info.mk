@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/shared-mime-info.mk 411970 2016-03-27 01:23:25Z bapt $
-#
 # handle dependency depends on shared-mime-info and package regen
 #
 # Feature:	shared-mime-info

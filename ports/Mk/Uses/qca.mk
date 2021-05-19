@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/qca.mk 528829 2020-03-21 07:23:59Z tcberner $
-#
 # Handle dependency on qca
 #
 # Feature:		qca

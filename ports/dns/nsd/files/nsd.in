@@ -1,7 +1,5 @@
 #!/bin/sh
-#
-# $FreeBSD: head/dns/nsd/files/nsd.in 528662 2020-03-18 18:54:45Z pi $
-#
+
 # PROVIDE: nsd
 # REQUIRE: DAEMON
 # REQUIRE: LOGIN

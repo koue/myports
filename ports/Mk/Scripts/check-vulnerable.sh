@@ -1,5 +1,4 @@
 #!/bin/sh
-# $FreeBSD: head/Mk/Scripts/check-vulnerable.sh 554893 2020-11-11 13:29:52Z mat $
 #
 # MAINTAINER: portmgr@FreeBSD.org
 

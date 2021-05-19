@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/pgsql.mk 549921 2020-09-24 13:33:10Z girgen $
-#
 # Provide support for PostgreSQL (pgsql)
 #
 # Feature:	pgsql

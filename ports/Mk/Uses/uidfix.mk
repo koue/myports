@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/uidfix.mk 413204 2016-04-13 12:20:40Z mi $
-#
 # Changes some default behaviour of build systems to allow installing as user.
 #
 # Feature:	uidfix

@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/alias.mk 439129 2017-04-21 20:25:00Z rene $
-#
 # Add __FreeBSD__ definition to CFLAGS
 # Used by DPorts when masquerading as FreeBSD allows port to build without
 # additional patches

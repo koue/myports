@@ -1,5 +1,4 @@
 # Created by: Kelly Yancey <kbyanc@FreeBSD.org>
-# $FreeBSD: head/mail/cclient/Makefile 554949 2020-11-12 11:18:34Z fernape $
 
 PORTNAME=	cclient
 PORTVERSION=	2007f

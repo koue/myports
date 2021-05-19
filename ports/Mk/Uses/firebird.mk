@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/firebird.mk 419511 2016-08-03 12:09:37Z mat $
-#
 # Provide support for Firebird
 # Feature:	firebird
 # Usage:	USES=	firebird[:version]

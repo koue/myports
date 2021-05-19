@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/fam.mk 411970 2016-03-27 01:23:25Z bapt $
-#
 # MAINTAINER: portmgr@FreeBSD.org
 #
 # Feature:	fam

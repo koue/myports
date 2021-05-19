@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/bsd.wx.mk 544942 2020-08-15 13:30:07Z antoine $
-#
 # bsd.wx.mk - Support for wxWidgets based ports.
 #
 # Created by: Alejandro Pulver <alepulver@FreeBSD.org>

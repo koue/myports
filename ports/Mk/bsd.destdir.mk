@@ -5,8 +5,6 @@
 #
 # Created by: Gabor Kovesdan <gabor@FreeBSD.org>
 #
-# $FreeBSD: head/Mk/bsd.destdir.mk 367700 2014-09-08 20:44:21Z bdrewery $
-#
 # Please make sure all changes to this file are passed through the maintainer.
 
 DESTDIR_Include_MAINTAINER=		portmgr@FreeBSD.org

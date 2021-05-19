@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/erlang.mk 523922 2020-01-23 11:31:22Z dch $
-#
 # Handle Erlang related ports
 #
 # Feature:	erlang

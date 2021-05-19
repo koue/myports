@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/corosync.mk 470799 2018-05-24 18:24:50Z flo $
-#
 # Provide support for corosync ports
 #
 # Feature:		corosync

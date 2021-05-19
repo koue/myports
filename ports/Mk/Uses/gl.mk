@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/gl.mk 548950 2020-09-19 09:34:36Z manu $
-# 
 # Use OpenGL and related libraries and ports
 # 
 # Feature:	gl

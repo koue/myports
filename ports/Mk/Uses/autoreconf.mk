@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/autoreconf.mk 509895 2019-08-26 09:45:15Z zeising $
-#
 # Run autoreconf in AUTORECONF_WRKSRC to update configure, Makefile.in and
 # other build scripts.
 #

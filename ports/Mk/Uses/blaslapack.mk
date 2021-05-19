@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/blaslapack.mk 523749 2020-01-21 22:03:19Z swills $
-#
 # Handle dependencies on Blas / Lapack
 #
 # Feature:	blaslapack

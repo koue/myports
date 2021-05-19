@@ -1,5 +1,4 @@
 #!/bin/sh
-# $FreeBSD: head/Mk/Scripts/desktop-categories.sh 555738 2020-11-20 07:16:06Z adamw $
 #
 # MAINTAINER: portmgr@FreeBSD.org
 

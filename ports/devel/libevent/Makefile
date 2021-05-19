@@ -1,5 +1,4 @@
 # Created by: Martin Matuska <mm@FreeBSD.org>
-# $FreeBSD: head/devel/libevent/Makefile 542663 2020-07-20 18:33:19Z zeising $
 
 PORTNAME=	libevent
 DISTVERSION=	2.1.12

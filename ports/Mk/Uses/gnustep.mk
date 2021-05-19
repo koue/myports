@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/gnustep.mk 492056 2019-02-03 15:37:58Z theraven $
-#
 # Handle GNUstep related ports
 #
 # Feature:	gnustep

@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/scons.mk 537545 2020-06-02 13:11:58Z mat $
-#
 # Provide support to use the scons
 #
 # Feature:	scons

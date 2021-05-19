@@ -1,5 +1,4 @@
 # MAINTAINER: rust@FreeBSD.org
-# $FreeBSD: head/Mk/Scripts/cargo-crates.awk 519063 2019-12-05 06:42:22Z tobik $
 
 BEGIN {
 	gh_tuple_len = 0

@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/fuse.mk 452924 2017-10-26 15:37:02Z se $
-#
 # Handle dependency on the fuse port
 #
 # Feature:	fuse

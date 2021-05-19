@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/drupal.mk 417053 2016-06-18 08:22:11Z rene $
-#
 # Support for Drupal ports and modules.
 #
 # Feature:	drupal

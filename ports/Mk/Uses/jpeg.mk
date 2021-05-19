@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/jpeg.mk 556784 2020-12-01 19:12:47Z rene $
-#
 # Handle dependency on jpeg
 #
 # Feature:	jpeg

@@ -1,6 +1,3 @@
-#
-# $FreeBSD: head/Mk/Uses/lazarus.mk 510956 2019-09-03 15:51:50Z acm $
-#
 # Support for Lazarus-based ports.
 #
 # Feature:      lazarus

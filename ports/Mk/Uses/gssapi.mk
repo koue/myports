@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/gssapi.mk 518677 2019-11-29 22:11:34Z pkubaj $
-#
 # handle dependency on Kerberos port
 #
 # Feature:	gssapi

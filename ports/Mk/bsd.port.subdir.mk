@@ -1,6 +1,5 @@
 #	from: @(#)bsd.subdir.mk	5.9 (Berkeley) 2/1/91
-# $FreeBSD: head/Mk/bsd.port.subdir.mk 499773 2019-04-23 17:52:38Z pkubaj $
-#
+
 # The include file <bsd.port.subdir.mk> contains the default targets
 # for building ports subdirectories.
 #

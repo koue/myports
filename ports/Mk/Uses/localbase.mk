@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/localbase.mk 423014 2016-09-30 19:24:30Z tijl $
-#
 # handle enforcing localbase in path
 #
 # Feature:	localbase

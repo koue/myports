@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/sdl.mk 492696 2019-02-11 15:21:25Z amdmi3 $
-#
 # Support for SDL-based ports
 #
 # Feature:	sdl

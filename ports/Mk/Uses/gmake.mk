@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/gmake.mk 534792 2020-05-09 19:24:49Z tijl $
-#
 # Provide support to use the GNU make
 #
 # Feature:		gmake

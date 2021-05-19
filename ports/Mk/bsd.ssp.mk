@@ -1,4 +1,3 @@
-# $FreeBSD: head/Mk/bsd.ssp.mk 520454 2019-12-20 01:11:41Z jhb $
 # SSP Support
 
 SSP_Include_MAINTAINER=	portmgr@FreeBSD.org

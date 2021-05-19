@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/eigen.mk 457914 2018-01-02 16:49:24Z tcberner $
-#
 # Handle dependency on eigen 
 #
 # Feature:	eigen

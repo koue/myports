@@ -1,6 +1,5 @@
 #!/bin/sh
 # MAINTAINER: portmgr@FreeBSD.org
-# $FreeBSD: head/Mk/Scripts/smart_makepatch.sh 554893 2020-11-11 13:29:52Z mat $
 
 # This script regenerates patches.  It conserves existing comments and
 # file names, even if the file name does not meet any current or

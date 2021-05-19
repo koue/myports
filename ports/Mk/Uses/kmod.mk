@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/kmod.mk 519159 2019-12-06 19:46:18Z emaste $
-#
 # Handles common items for kernel module ports.
 #
 # Feature:	kmod

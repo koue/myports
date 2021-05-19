@@ -1,7 +1,5 @@
 #-*- tab-width: 4; -*-
 # ex:ts=4
-#
-# $FreeBSD: head/Mk/bsd.licenses.mk 476184 2018-08-01 16:33:11Z adamw $
 
 # ** Please run changes to this file by eadler@ first **
 

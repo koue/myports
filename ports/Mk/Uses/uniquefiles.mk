@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/uniquefiles.mk 456737 2017-12-19 16:23:48Z mat $
-#
 # Make files or directories 'unique', by adding a prefix or suffix.
 #
 # Feature:		uniquefiles

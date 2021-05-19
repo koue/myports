@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/openal.mk 500502 2019-04-30 16:24:55Z tobik $
-#
 # Handle dependency on OpenAL
 #
 # Feature:	openal

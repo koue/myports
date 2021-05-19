@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/grantlee.mk 520520 2019-12-20 19:10:44Z tcberner $
-#
 # Handle dependency on grantlee
 #
 # Feature:	grantlee

@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/gem.mk 511765 2019-09-10 17:38:00Z sunpoet $
-#
 # Support rubygem packages
 #
 # Feature:	gem

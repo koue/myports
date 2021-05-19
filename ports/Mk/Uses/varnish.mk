@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/varnish.mk 490309 2019-01-14 18:09:46Z feld $
-#
 # Provide support for Varnish
 #
 # Feature:      varnish

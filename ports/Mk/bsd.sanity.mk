@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/bsd.sanity.mk 516730 2019-11-04 18:08:20Z zeising $
-#
 # MAINTAINER: portmgr@FreeBSD.org
 #
 

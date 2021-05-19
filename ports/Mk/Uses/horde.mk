@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/horde.mk 488016 2018-12-21 16:26:58Z joneum $
-#
 # Feature:	horde
 # Usage:	USES=horde
 # Valid ARGS:	none

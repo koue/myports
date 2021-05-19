@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/ghostscript.mk 451376 2017-10-06 11:13:05Z tobik $
-#
 # Provide support for ghostscript ports.
 #
 # Feature:	ghostscript

@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/qmail.mk 411970 2016-03-27 01:23:25Z bapt $
-#
 # Feature:	qmail
 # Usage:	USES=qmail or USES=qmail:ARGS
 # Valid ARGS:	both (default, implicit), run, build, vars

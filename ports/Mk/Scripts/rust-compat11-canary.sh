@@ -1,6 +1,5 @@
 #!/bin/sh
 # MAINTAINER: rust@FreeBSD.org
-# $FreeBSD: head/Mk/Scripts/rust-compat11-canary.sh 554893 2020-11-11 13:29:52Z mat $
 set -eu
 set -o pipefail
 

@@ -1,5 +1,4 @@
 #! /bin/sh
-# $FreeBSD: head/Mk/Scripts/generate-symbols.sh 554893 2020-11-11 13:29:52Z mat $
 # Maintainer: portmgr@FreeBSD.org
 #
 # This script will find all ELF files in STAGEDIR and then strip and move

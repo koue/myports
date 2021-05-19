@@ -1,4 +1,3 @@
-# $FreeBSD: head/Mk/bsd.ccache.mk 514247 2019-10-10 20:09:59Z bdrewery $
 #-*- tab-width: 4; -*-
 # ex:ts=4
 #

@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/makeself.mk 411970 2016-03-27 01:23:25Z bapt $
-#
 # handle makeself archives
 #
 # Feature:	makeself

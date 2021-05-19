@@ -1,6 +1,3 @@
-#
-# $FreeBSD: head/Mk/Uses/fpc.mk 556252 2020-11-25 02:57:50Z acm $
-#
 # Support for FPC-based ports. This automatically will install free pascal 
 # compiler and units.
 #

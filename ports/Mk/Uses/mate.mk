@@ -1,8 +1,6 @@
 #-*- tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: head/Mk/Uses/mate.mk 467271 2018-04-13 21:16:56Z ericbsd $
-#
 # Please view me with 4 column tabs!
 
 # ======================= USERS =================================

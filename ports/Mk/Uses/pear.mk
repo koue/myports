@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/pear.mk 484589 2018-11-10 07:58:52Z sunpoet $
-#
 # Use the PHP Extension and Application Repository
 #
 # Feature:	pear

@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/lxqt.mk 523171 2020-01-15 21:15:55Z bapt $
-#
 # This file contains some variable definitions that are supposed to make your
 # life easier, when dealing with ports related to the LXQt Desktop Environment.
 #

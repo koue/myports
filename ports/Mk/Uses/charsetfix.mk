@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/charsetfix.mk 522484 2020-01-09 13:01:45Z swills $
-#
 # Lookup in Makefile.in to prevent a package from installing/modifying charset.alias
 #
 # Feature:	charsetfix

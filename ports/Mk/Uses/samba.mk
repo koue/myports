@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/samba.mk 555112 2020-11-14 14:07:01Z cmt $
-#
 # Handle dependency on samba
 #
 # Feature:	samba
@@ -23,7 +21,7 @@ IGNORE=		USES=samba has invalid arguments: ${samba_ARGS:Nbuild:Nenv:Nlib:Nrun}
 
 SAMBAPORT=	net/samba${SAMBA_DEFAULT:S/.//}
 SAMBAINCLUDES=	${LOCALBASE}/include/samba4
-.if ${SAMBA_DEFAULT} == 4.11 || ${SAMBA_DEFAULT} == 4.12 || ${SAMBA_DEFAULT} == 4.13
+.if ${SAMBA_DEFAULT} == 4.12 || ${SAMBA_DEFAULT} == 4.13
 SAMBALIBS=	${LOCALBASE}/lib/samba4
 .else
 IGNORE=		Invalid version of samba: ${SAMBA_DEFAULT}

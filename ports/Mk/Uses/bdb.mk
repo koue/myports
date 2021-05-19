@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/bdb.mk 556922 2020-12-03 20:41:49Z rene $
-#
 # Provide support for Berkeley DB
 # Feature:	bdb
 # Usage:	USES=	bdb[:version]

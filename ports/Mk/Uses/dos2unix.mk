@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/dos2unix.mk 479778 2018-09-14 18:27:20Z tobik $
-#
 # Provide support to convert files from dos2unix
 #
 # DOS2UNIX_REGEX	a regular expression to match files that needs to be converted

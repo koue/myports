@@ -2,8 +2,6 @@
 #
 # ex:ts=4:sw=4:noet
 #-*- mode: makefile; tab-width: 4; -*-
-#
-# $FreeBSD: head/mail/spamd/files/pkg-install.in 529921 2020-03-30 21:10:08Z ohauer $
 
 SPAMDUSER=%%SPAMDUSER%%
 SPAMDGROUP=%%SPAMDGROUP%%

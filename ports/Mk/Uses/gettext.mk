@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/gettext.mk 373636 2014-11-29 18:22:32Z tijl $
-#
 # Sets a library dependency on gettext-runtime and a build dependency
 # on gettext-tools.  Same as "USES=gettext-runtime gettext-tools".
 #

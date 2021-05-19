@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/bison.mk 528181 2020-03-10 16:05:11Z bapt $
-#
 # handle dependency on the bison port
 #
 # Feature:	bison

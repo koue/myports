@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/desthack.mk 369465 2014-09-28 16:36:31Z tijl $
-#
 # Handle gnu configure that does not properly support DESTDIR
 #
 # Feature:	desthack

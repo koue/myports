@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/tcl.mk 504026 2019-06-12 16:22:05Z gahr $
-#
 # vim: ts=8 noexpandtab
 #
 # Provide support to use Tcl/Tk

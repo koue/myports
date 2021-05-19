@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/gettext-tools.mk 411970 2016-03-27 01:23:25Z bapt $
-#
 # Handle dependency on the gettext-tools port
 #
 # Feature:	gettext-tools

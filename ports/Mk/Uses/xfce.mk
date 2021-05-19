@@ -1,6 +1,3 @@
-#
-# $FreeBSD: head/Mk/Uses/xfce.mk 559953 2021-01-02 16:36:33Z madpilot $
-#
 # Provide support for Xfce related ports.
 #
 # Feature:	xfce

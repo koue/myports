@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/cpe.mk 440110 2017-05-04 14:58:54Z mat $
-#
 # Include CPE information in package manifest as a CPE 2.3 formatted
 # string.  See http://scap.nist.gov/specifications/cpe/ for details.
 #

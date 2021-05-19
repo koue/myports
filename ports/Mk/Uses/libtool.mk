@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/libtool.mk 457295 2017-12-26 17:20:15Z emaste $
-#
 # Bring libtool scripts up to date.
 #
 # Feature:	libtool

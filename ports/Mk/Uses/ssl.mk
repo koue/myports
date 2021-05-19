@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/ssl.mk 521745 2020-01-01 16:42:44Z brnrd $
-#
 # Handle dependency on *ssl ports.
 #
 # Feature:	SSL_DEFAULT

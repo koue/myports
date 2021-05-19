@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/fakeroot.mk 411970 2016-03-27 01:23:25Z bapt $
-#
 # Changes some default behaviour of build systems to allow installing as user.
 #
 # Feature:	fakeroot

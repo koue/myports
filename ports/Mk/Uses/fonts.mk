@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/fonts.mk 521478 2019-12-30 10:09:56Z hrs $
-#
 # handle fonts
 # Feature:	fonts
 # Usage:	USES=fonts

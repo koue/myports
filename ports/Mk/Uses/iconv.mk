@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/iconv.mk 450634 2017-09-25 20:55:27Z tijl $
-#
 # handle dependency on the iconv port
 #
 # Feature:	iconv

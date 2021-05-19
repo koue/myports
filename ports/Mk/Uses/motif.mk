@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/motif.mk 517002 2019-11-07 18:49:58Z zeising $
-#
 # handle dependency on motif
 #
 # Feature:	motif

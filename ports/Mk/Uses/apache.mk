@@ -1,8 +1,6 @@
 #-*- tab-width: 4; -*-
 # ex:ts=4
 #
-# $FreeBSD: head/Mk/Uses/apache.mk 542072 2020-07-12 10:33:42Z joneum $
-#
 # apache.mk - Apache related macros.
 # Author: Clement Laforet <clement@FreeBSD.org>
 # Author: Olli Hauer <ohauer@FreeBSD.org>

@@ -1,0 +1,19 @@
+--- unix/configure.orig	2020-12-11 19:22:34 UTC
++++ unix/configure
+@@ -7528,15 +7528,11 @@ fi
+ 		LDFLAGS="$LDFLAGS $PTHREAD_LIBS"
+ fi
+ 
+-	    case $system in
+-	    FreeBSD-3.*)
+ 		# Version numbers are dot-stripped by system policy.
+ 		TCL_TRIM_DOTS=`echo ${VERSION} | tr -d .`
+ 		UNSHARED_LIB_SUFFIX='${TCL_TRIM_DOTS}.a'
+-		SHARED_LIB_SUFFIX='${TCL_TRIM_DOTS}.so'
++		SHARED_LIB_SUFFIX='${TCL_TRIM_DOTS}.so.1'
+ 		TCL_LIB_VERSIONS_OK=nodots
+-		;;
+-	    esac
+ 	    ;;
+ 	Darwin-*)
+ 	    CFLAGS_OPTIMIZE="-Os"

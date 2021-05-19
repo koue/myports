@@ -1,5 +1,3 @@
-# $FreeBSD$
-
 PORTNAME=	slowcgi
 PORTVERSION=	6.8.20201116
 CATEGORIES=	www

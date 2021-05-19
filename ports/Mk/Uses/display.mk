@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/display.mk 411970 2016-03-27 01:23:25Z bapt $
-#
 # Feature:	display
 # Usage:	USES=display or USES=display:ARGS
 # Valid ARGS:	install (default, implicit), any target

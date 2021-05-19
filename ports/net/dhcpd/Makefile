@@ -1,5 +1,3 @@
-# $FreeBSD: head/net/dhcpd/Makefile 532098 2020-04-19 10:09:44Z tagattie $
-
 PORTNAME=	dhcpd
 PORTVERSION=	6.6.20200413
 CATEGORIES=	net

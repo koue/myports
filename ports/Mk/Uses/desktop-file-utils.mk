@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/desktop-file-utils.mk 411970 2016-03-27 01:23:25Z bapt $
-#
 # handle dependency depends on desktop-file-utils and package regen
 #
 # Feature:	desktop-file-utils

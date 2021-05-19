@@ -1,5 +1,4 @@
 # Created by: Max Laier <max@love2party.net>
-# $FreeBSD: head/mail/spamd/Makefile 529921 2020-03-30 21:10:08Z ohauer $
 
 PORTNAME=	spamd
 PORTVERSION=	4.9.1

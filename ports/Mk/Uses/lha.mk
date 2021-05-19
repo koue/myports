@@ -1,5 +1,3 @@
-# $FreeBSD: head/Mk/Uses/lha.mk 411970 2016-03-27 01:23:25Z bapt $
-#
 # handle lha archives
 #
 # Feature:	lha
